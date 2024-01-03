@@ -1,0 +1,4 @@
+<launch>
+  <node name="ros1_talker"   pkg="ros1_test" type="ros1_talker" />
+  <node name="ros1_listener" pkg="ros1_test" type="ros1_listener" output="screen"/>
+</launch>
