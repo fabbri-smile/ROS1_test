@@ -137,8 +137,8 @@ include_directories(
 ## The recommended prefix ensures that target names across packages don't collide
 # add_executable(${PROJECT_NAME}_node src/ros1_test_node.cpp)
 
-add_executable(ros1_talker   src/ros1_talker.cpp)
-add_executable(ros1_listener src/ros1_listener.cpp)
+add_executable(ros1_listener src/ros1_listener/main.cpp)
+add_executable(ros1_talker   src/ros1_talker/main.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
